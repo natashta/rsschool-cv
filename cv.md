@@ -1,6 +1,6 @@
 # Natalia Ryzhova
 ## Contacts
-**E-mail:** natashta@gmail.com
+**E-mail:** natashta@gmail.com  
 **Telegramm:** @xrono
 
 ## Summary
