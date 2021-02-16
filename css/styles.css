@@ -1,0 +1,85 @@
+* {box-sizing: border-box;}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    background-color: #f2e3ce;
+    color: #4d4d4d;
+}
+header, footer {
+    padding-top: 120px;
+    background-color: #d6aa81;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 36px;
+    margin-top: 60px;
+}
+
+ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+.skills li:before {
+    content: "\2714";
+    width: 10px;
+    height: 10px;
+    padding-right: 10px;
+}
+
+a {
+    color: #915e2d;
+    font-weight: bold;
+    text-decoration: none; 
+    transition: ease 0.6s;
+}
+
+a:hover {color: #d6aa81;}
+
+.contacts__item {
+    font-weight: bold;
+}
+
+.personal-img {
+    border-radius: 50%;
+    margin-right:120px;
+}
+
+.about {margin-top: 120px;}
+
+.wrapper {
+    max-width:1200px;
+    margin: 80px auto;
+}
+
+.personal, .skills {
+    display:flex;
+}
+
+.skills__item {
+    width: 50%;
+}
+.skills__item:first-child {
+    margin-right: 80px;
+}
+pre {
+    font-size: 18px;
+    max-width: 600px; 
+    background-color: #e6e6e6;
+    border: 1px solid #999999;
+}

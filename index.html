@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>CV</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="wrapper">
+        <section class="personal">
+            <img class="personal-img" src="img/me.jpg" alt="my portarait" width="250" height="250">
+            <div class="">
+            <h1>Natalia Ryzhova</h1>
+            <div class="contacts">
+                <h2>Contacts</h2>
+                <ul>
+                    <li class="contacts__item">Email: <a class="contacts__mail" href="mailto:natashta@gmail.com">natashta@gmail.com</a></li>
+                    <li class="contacts__item">Telegramm: <a class="contacts__telegram" href="https://t.me/xrono">@xrono</a></li>
+                </ul>
+            </div>
+            </div>
+            </section>
+            <section class="about">
+                <h2>About me</h2>
+                <p>My goal is to improve the javascript to get a job as a junior frontend developer. My strong point is html layout. I am familiar with and use vanilla Javascript in my work. I have experience as a freelance layout designer.</p>
+            </section>
+            <section class="skills">
+                <div class="skills__item">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>html</li>
+                        <li>css/sass</li>
+                        <li>Javascript</li>
+                        <li>BEM metodology</li>
+                        <li>Git/github</li>
+                        <li>Figma</li>
+                    </ul>
+                    <h3>Language skills</h3>
+                    <ul>
+                        <li>Russian (native)</li>
+                        <li>English (advanced)</li>
+                    </ul>
+                    <h3>Online learning</h3>
+                    <ul>
+                        <li><a href="netology.ru">Netology</a> Advanced HTML and CSS, Advanced Javascript</li>
+                        <li><a href="https://rs.school/js/">RS School</a></li>
+                    </ul>
+                </div>
+
+                <div class="skills__item">
+                    <h3>Example of latest code</h3>
+                    <pre><code>
+    function reverse (n) {
+        let str = String(n);
+        let arr = str.split('').reverse().join('');
+        let res = Number.parseInt(arr);
+        return res;
+    }
+                    </code></pre>
+                    
+                    <h3>Experience</h3>
+                    <p>I have experience in developing several commercial projects. You can find them here:</p>
+                    <ul>
+                        <li><a href="https://natashta.github.io/invest_hero/index.html">лендинг для инвестиционной компании</a></li>
+                        <li><a href="http://ruzik.ru/promo/2020.html">страница для рекламной акции</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
